@@ -30,7 +30,7 @@ for (let i = 1; i <= 10; i++) {
 
 'condicionales anidados'
 
-let nota = Number(prompt("¿Cuál es tu nota? (0-10)"));
+let nota = Number(prompt("¿Cuál es tu nota? (0-100)"));
 if (nota >= 0 && nota < 50) {
   console.log("Suspenso");
 } else if (nota >= 50 && nota < 70) {
